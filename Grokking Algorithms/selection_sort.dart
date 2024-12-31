@@ -6,7 +6,7 @@ void main(){
   print(sort.selectionSort(myArr));
 }
 
-// Из учебника
+// from book
 class SelectionSort{
   List<int> selectionSort(List<int> arr){
     List<int> newArr = [];
@@ -31,7 +31,7 @@ class SelectionSort{
 
 }
 
-// После доп. серчинга
+// After my serching
 class SelectionSortOptimization{
   List<int> selectionSort(List<int> arr){
     for (int i = 0; i < arr.length - 1; i++){
